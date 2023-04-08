@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar  */
+.nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: -10px 2px 5px rgb(99, 97, 97);
+
+}
+
+/* LOGO */
+.logo {
+    color: #2C3333;
+    padding-left: 4em;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Different pages like home, About Us */
+.nav_item {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em 0 13em;
+}
+
+.nav_item li {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0 1.2em;
+    position: relative;
+}
+
+.nav_item li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2C3333;
+}
+
+.icone {
+    margin: 3px;
+}
+
+.nav_item li a:hover {
+    color: #4b8fa2;
+}
+
+button {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #2C3333;
+    color: #E7F6F2;
+    margin: 2px;
+    padding: 0.6em;
+    border-left: 25px;
+    border: none;
+    font-size: 1rem;
+    text-align: right;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #395B64;
+    color: white;
+
+}
