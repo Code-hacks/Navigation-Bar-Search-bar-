@@ -1,3 +1,3 @@
 # Navigation-Bar-Search-bar
-code for Navigation Bar and Search Bar
-here we used React.js, javascript, json and css
+<p> code for Navigation Bar and Search Bar </p>
+<p> here we used React.js, javascript, json and css </p>
